@@ -1360,7 +1360,7 @@ section .notice-wrap .allnotice-wrap .notice-inner .Service-center .content span
     color: #222;
     line-height: 1.714em;
 }
-section .notice-wrap .allnotice-wrap .notice-inner .Service-center .content span p{
+section .notice-wrap .allnotice-wrap .notice-inner .Service-center .content span>span{
     font-size: 14px;
     color: #666;
     line-height: 1.714em;
