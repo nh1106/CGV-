@@ -124,7 +124,7 @@ $(document).ready(function(){
       let list = $(".content-wrap ul.list li")
       for(let i = 0; i <4; i++){
         list.eq(i).hover(function(){
-          $("section .special_seat .inner .content-wrap .img-wrap img").attr("src", `./img/seat${i+1}.png`);
+          $(".special_seat .inner .content-wrap .img-wrap img").attr("src", `./img/seat${i+1}.png`);
           $(this).addClass("active");
           list .not($(this)).removeClass("active");
         })
