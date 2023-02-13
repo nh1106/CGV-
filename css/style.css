@@ -156,9 +156,7 @@ header .header_inner .item ul{
     display: flex;
     align-items: center;
 }
-header .header_inner .item ul .ad{
-    margin-top: 6px;
-}
+header .header_inner .item ul .ad{}
 header .header_inner .item ul .ad a{}
 header .header_inner .item ul .ad a img{}
 header .header_inner .item ul li{
@@ -171,7 +169,6 @@ header .header_inner .item ul li a{
     padding-bottom: 19px;
 }
 header .header_inner .item ul li a img{
-    width: 36px;
     height: 36px;
     display: block;
     margin: auto;
